@@ -19,3 +19,6 @@ RUN apt-get install -y gdb=13.1-3
 
 # Installing clang for better error hilgihts syntax on writing
 RUN sudo apt-get install clang-tidy=1:14.0-55.7~deb12u1 -y
+
+# Installing python
+RUN sudo apt install python3=3.11.2-1+b1

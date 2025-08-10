@@ -7,5 +7,11 @@
     "C_Cpp.codeAnalysis.clangTidy.enabled": true,
     "C_Cpp.codeAnalysis.clangTidy.args": [
         "--checks=clang-analyzer-core.uninitialized,clang-analyzer-core.*"
-    ]
+    ],
+    "[python]": {
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.defaultColorDecorators": "never",
+        "editor.formatOnType": true,
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    }
 }
