@@ -1,0 +1,11 @@
+{
+    "editor.formatOnSave": true,
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "C_Cpp.errorSquiggles": "enabled",
+    "C_Cpp.codeAnalysis.clangTidy.enabled": true,
+    "C_Cpp.codeAnalysis.clangTidy.args": [
+        "--checks=clang-analyzer-core.uninitialized,clang-analyzer-core.*"
+    ]
+}

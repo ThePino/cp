@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "Cp",
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "c17",
+            "cppStandard": "c++23",
+            "intelliSenseMode": "linux-gcc-x64",
+            "compilerArgs": [
+                "-Wall",
+                "-Wextra",
+                "-Wuninitialized",
+                "-Wmaybe-uninitialized",
+                "-O1"
+            ],
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/include",
+                "/usr/include/c++/12",
+                "/usr/include/x86_64-linux-gnu/c++/12",
+                "/usr/include/c++/12/backward"
+            ],
+            "defines": []
+        }
+    ],
+    "version": 4
+}
