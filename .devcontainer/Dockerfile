@@ -3,7 +3,7 @@ FROM mcr.microsoft.com/devcontainers/base:debian-12
 
 ENV DEBIAN_FRONTEND=noninteractive
 
-# Updating and installing git.
+# Updating
 RUN apt-get update && \
     apt-get install -y sudo
 
